@@ -69,12 +69,13 @@
   position: relative;
   width: 36px;
   height: 28px;
-  background: url(image/toggle.png);
+  background: url(../image/toggle.png);
   background-size: cover;
   cursor: pointer;
 }
 
-.toggle:hover {}
+.toggle:hover {
+}
 
 .about {
   position: relative;
@@ -106,7 +107,7 @@
 
 .imgBx {
   width: 50%;
-  background: url(image/window.jpg);
+  background: url(../image/window.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -247,7 +248,7 @@
 
 .cont .cont_form {
   width: 50%;
-  background: url(image/red.jpg);
+  background: url(../image/red.jpg);
 }
 
 .cont .cont_form table {
@@ -277,7 +278,7 @@ button {
 }
 
 .cont_image {
-  background: url(image/f5.jpg);
+  background: url(../image/f5.jpg);
   display: block;
   width: 50%;
   height: auto;
