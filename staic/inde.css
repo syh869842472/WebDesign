@@ -74,9 +74,6 @@
   cursor: pointer;
 }
 
-.toggle:hover {
-}
-
 .about {
   position: relative;
   width: 100%;
@@ -197,8 +194,7 @@
   display: inline-block;
   width: 30%;
   height: 220px;
-  float: right;
-  margin: -200px 0px 0px 20px;
+  margin: -200px 0px 0px 70%;
 }
 
 .imageBx img {
