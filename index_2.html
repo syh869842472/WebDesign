@@ -13,13 +13,37 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+    <style>
+        .block {
+            width: 80px;
+            height: 80px;
+            border: 2px black solid;
+            line-height: 80px;
+            text-align: center;
+        }
+
+        .block:nth-child(1) {
+            position: relative;
+
+        }
+
+        .block:nth-child(2) {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            border: 2px red solid;
+            width: 50%;
+        }
+    </style>
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+    <div class="block">A</div>
+    <div class="block">B</div>
+    <div class="block">C</div>
     <script src="" async defer></script>
 </body>
 
