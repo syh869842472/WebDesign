@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        #progress{
+            width: 300px;
+            height: 100px;
+            background: url('image/brands');
+        }
+    </style>
+</head>
+
+
+<body>
+    <menu type="context" id="mymenu">
+        <menuitem label="右键菜单测试">
+    </menu>
+    <p contextmenu="mymenu">测试文字</p>
+    <mark hidden>测试文字</mark>
+    <dialog>测试文字</dialog>
+    <nav draggable="true">
+        <a href="#">shouye</a>
+        <a href="#">ceshiye</a>
+        <a href="#">#</a>
+    </nav>
+    <ul contenteditable="true">
+        <li>Username <bdi>Bill</bdi>:80 points</li>
+        <li>Username <bdi>Steve</bdi>:78 points</li>
+    </ul>
+    <time>2020-05-20</time>
+    <br>
+    <textarea id="" cols="30" rows="10" spellcheck="true"></textarea>
+    <canvas id="cav" width="200" height="200" style="background-color: gray;"></canvas>
+    数值 <input type="range" name="" id="" min="1" max="25">
+    <input type="number" name="" id="" min="0" max="20" step="3">
+    百分比进度：<progress id="progress" value="55" max="100"></progress>
+    <script>
+        var progress = document.getElementById('progress');
+        
+    </script>
+</body>
+
+</html>
